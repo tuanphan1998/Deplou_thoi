@@ -1,0 +1,37 @@
+
+.button {
+  width: 100%;
+  background: #61dafb;
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  color: white;
+  font-weight: bold;
+}
+
+.fileUploaderContainer {
+  overflow: hidden;
+  display: block;
+  position: relative;
+  color: #777777;
+  padding: 8px;
+  margin-bottom: 8px;
+  border: 3px dashed #777777;
+  border-radius: 8px;
+}
+
+.fileUploaderContainer [type=file] {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+  font-size: 999px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  cursor: pointer;
+}
